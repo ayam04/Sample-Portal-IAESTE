@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Offers</title>
+  </head>
+  <body>
+    <h1>Offers</h1>
+    {% for offer in offers %}
+      <h2>{{ offer.title }}</h2>
+      <p>{{ offer.time }}</p>
+      <p>{{ offer.country}}</p>
+    {% endfor %}
+  </body>
+</html>
